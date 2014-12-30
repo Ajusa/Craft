@@ -9,7 +9,8 @@ http://www.michaelfogleman.com/craft/
 ### Features
 
 * Simple but nice looking terrain generation using perlin / simplex noise.
-* More than 10 types of blocks and more can be added easily.
+* WIP: Plugin api for adding blocks
+* More than 10 types of blocks and more can be added easily through the modding api with Lua.
 * Supports plants (grass, flowers, trees, etc.) and transparency (glass).
 * Simple clouds in the sky (they don't move).
 * Day / night cycles and a textured sky dome.
@@ -44,8 +45,7 @@ the installation:
 Download and install [CMake](http://www.cmake.org/cmake/resources/software.html)
 and [MinGW](http://www.mingw.org/). Add `C:\MinGW\bin` to your `PATH`.
 
-Download and install [cURL](http://curl.haxx.se/download.html) so that
-CURL/lib and CURL/include are in your Program Files directory.
+Download and install [cURL](http://curl.haxx.se/download.html). Just download the zip on the home page. Next, unzip the contents to 'C:\Program Files\CURL' After that, go ahead and cd to it in CMD. Run 'mingw32-make mingw32', and wait for it to build. 
 
 Use the following commands in place of the ones described in the next section.
 
